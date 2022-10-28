@@ -1,148 +1,176 @@
 body {
- 
-  padding-top: 0px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: #B7E4F2
+
+	padding-top: 0px;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	background-color: #B7E4F2
 }
-h4{
+
+h4 {
 	color: #2A6071;
 }
-.container{
-	 display: flex;
-	 justify-content: space-around;
-	 
-	
-}
-.usuario{
-	text-align: center;
-	
+
+.container {
+	display: flex;
+	justify-content: space-around;
+
+
 }
 
-.usuario > img{
+.usuario {
+	text-align: center;
+
+}
+
+.usuario>img {
 	width: 30%;
 	background-repeat: no-repeat;
-    background-position: 50%;
-    border-radius: 50%;
-    background-size: 100% auto;
+	background-position: 50%;
+	border-radius: 50%;
+	background-size: 100% auto;
 	justify-items: center;
 }
-.derecha{
-	flex: 2; 
-	margin: 20px;	
-	
-	
-}
-.izquierda{
-	flex: 1; 
-	background-color: #ffff;	
+
+.derecha {
+	flex: 2;
 	margin: 20px;
-	
+
+
 }
-.izquierda > div{
-	background-color: #C4E0E9;	
-	margin: 20px;	
+
+.izquierda {
+	flex: 1;
+	background-color: #ffff;
+	margin: 20px;
+
+}
+
+.izquierda>div {
+	background-color: #C4E0E9;
+	margin: 20px;
 	padding: 10px;
-	
-	
+
+
 }
 
 
-.derecha > div{
-	background-color: #ffff;	
+.derecha>div {
+	background-color: #ffff;
 	padding: 10px;
 	margin-bottom: 20px;
-	
-	
+
+
+
+}
+.video-youtube{
+	text-align: center;
+}
+
+.video-youtube > iframe{
+	width: 50%;
 	
 }
 
 
-.historial-academico{
+.historial-academico {
 	background-color: #ffff;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	column-gap: 10px;
+	display: flex;	
+	text-align: center;	
 	align-content: stretch;
-	justify-content: space-between;
+	justify-content: space-around;
 	margin: 20px;
-	
+
 }
 
 
-.colegio{
+.colegio {
 	background-color: #C4E0E9;
 	padding: 10px;
-	
+
 }
 
-.universidad{
+.universidad {
 	background-color: #C4E0E9;
 	padding: 10px;
 }
 
-.mapouter {
-	position: relative;
-	text-align: right;
-	width: 300px;
-	height: 200px;
+.mapa-cole, 
+.mapa-uni{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+
 }
 
-.gmap_canvas {
-	overflow: hidden;
-	background: none !important;
-	width: 300px;
-	height: 200px;
+.mapa iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+
 }
 
-.gmap_iframe {
-	width: 300px !important;
-	height: 200px !important;
-}
 
-.laboral > div{
-	background-color: #C4E0E9;		
+.laboral>div {
+	background-color: #C4E0E9;
 	margin: 20px;
 	padding: 10px;
 
 }
 
-.imagenes{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	column-gap: 10px;	
-	justify-items: center;	
-	margin: 20px;
+.imagenes {
+	display: flex;			
+	column-gap: 10px;
+	text-align: center;
+	padding-top: 10px;
 
 }
 
-.formulario{
+.formulario {
 	background-color: #ffff;
 	margin: 20px;
 	padding: 10px;
-	
+
 }
 
-.formulario > div{
-	background-color: #C4E0E9;		
+
+
+.formulario>div {
+	background-color: #C4E0E9;
 	margin: 20px;
 	padding: 20px;
-	
-}
-
-
-
-.ima-movil > img{	
-	width: 60px;
 
 }
-.ima-web > img{	
-	width: 200px;
+
+textarea{
+	width:30%;
+	height: 40%;
+}
+input{
+	width: 30%;	
+}
+
+.ima-movil>img {
+	width: 45%;
 
 }
- 
 
+.ima-web>img {
+	width: 80%;
 
+}
+
+@media screen and (max-width: 800px) {
+
+	.historial-academico, .imagenes{
+		flex-direction: column;
+		padding-bottom: 10px;
+	}
+
+	.container {
+		flex-direction: column;
+		margin: auto;
+	}
 	
-	
-
-
+}
