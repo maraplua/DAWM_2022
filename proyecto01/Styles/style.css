@@ -1,0 +1,148 @@
+body {
+ 
+  padding-top: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #B7E4F2
+}
+h4{
+	color: #2A6071;
+}
+.container{
+	 display: flex;
+	 justify-content: space-around;
+	 
+	
+}
+.usuario{
+	text-align: center;
+	
+}
+
+.usuario > img{
+	width: 30%;
+	background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+	justify-items: center;
+}
+.derecha{
+	flex: 2; 
+	margin: 20px;	
+	
+	
+}
+.izquierda{
+	flex: 1; 
+	background-color: #ffff;	
+	margin: 20px;
+	
+}
+.izquierda > div{
+	background-color: #C4E0E9;	
+	margin: 20px;	
+	padding: 10px;
+	
+	
+}
+
+
+.derecha > div{
+	background-color: #ffff;	
+	padding: 10px;
+	margin-bottom: 20px;
+	
+	
+	
+}
+
+
+.historial-academico{
+	background-color: #ffff;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 10px;
+	align-content: stretch;
+	justify-content: space-between;
+	margin: 20px;
+	
+}
+
+
+.colegio{
+	background-color: #C4E0E9;
+	padding: 10px;
+	
+}
+
+.universidad{
+	background-color: #C4E0E9;
+	padding: 10px;
+}
+
+.mapouter {
+	position: relative;
+	text-align: right;
+	width: 300px;
+	height: 200px;
+}
+
+.gmap_canvas {
+	overflow: hidden;
+	background: none !important;
+	width: 300px;
+	height: 200px;
+}
+
+.gmap_iframe {
+	width: 300px !important;
+	height: 200px !important;
+}
+
+.laboral > div{
+	background-color: #C4E0E9;		
+	margin: 20px;
+	padding: 10px;
+
+}
+
+.imagenes{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 10px;	
+	justify-items: center;	
+	margin: 20px;
+
+}
+
+.formulario{
+	background-color: #ffff;
+	margin: 20px;
+	padding: 10px;
+	
+}
+
+.formulario > div{
+	background-color: #C4E0E9;		
+	margin: 20px;
+	padding: 20px;
+	
+}
+
+
+
+.ima-movil > img{	
+	width: 60px;
+
+}
+.ima-web > img{	
+	width: 200px;
+
+}
+ 
+
+
+	
+	
+
+
