@@ -28,6 +28,7 @@ h4 {
 	border-radius: 50%;
 	background-size: 100% auto;
 	justify-items: center;
+	box-shadow: 2px 2px 5px #999;
 }
 
 .derecha {
@@ -159,6 +160,15 @@ input{
 
 .ima-web>img {
 	width: 80%;
+
+}
+
+.ima-movil:hover {
+	background-color: #2A6071;
+}
+
+.ima-web:hover {
+	background-color: #2A6071;
 
 }
 
