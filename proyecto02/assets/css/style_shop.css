@@ -1,0 +1,10 @@
+/*=== CSS===*/
+.card-img{
+    width: 200px;
+    height: 200px;
+    
+}
+.card-body a{
+    font-weight:bold !important;
+    color: rgb(12, 12, 12) !important;
+}
