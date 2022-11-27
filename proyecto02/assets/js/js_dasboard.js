@@ -42,6 +42,7 @@ let Filtrar = () => {
   let select = document.getElementById("opciones")
   select.addEventListener("change", (event) => {
     let valor = event.target.value;
+   
     fetch("https://fakestoreapi.com/products")
       .then(response => response.json())
       .then(data => {

@@ -1,7 +1,19 @@
 #graficas{
-    padding: 50px;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: row;
+}
+
+.animacion h1{
+    color: blue;
+    text-shadow: 7px 4px 5px rgb(160, 160, 231);
+    
+}
+
+.animacion{
+    
+    text-align: center;
+
 }
 
 .show-labels{
