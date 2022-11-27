@@ -1,0 +1,79 @@
+#graficas{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.show-labels{
+    font-size: 10px;
+}
+
+#my-chart .bar{
+    height: 100px;   
+
+}
+
+#my-chart th td {
+    margin-inline-start: 20%;
+    margin-inline-end: 20%;
+    border-radius: 50% / 12px;
+    background:
+      radial-gradient(ellipse 60% 15px at bottom, grey 50px, transparent 50px) bottom,
+      radial-gradient(ellipse 60% 15px at top, lightgrey 50px, transparent 50px) top,
+      linear-gradient(grey, darkgrey, lightgrey);
+  }
+
+
+
+
+#my-chart2 {
+    --color: linear-gradient(red, yellow);
+    padding-top: 150px;
+
+   
+}  
+
+#my-chart2 tbody td {
+    margin-inline-start: 10px;
+    margin-inline-end: 20px;
+    box-shadow:
+      1px -1px 1px lightgrey,
+      2px -2px 1px lightgrey,
+      3px -3px 1px lightgrey,
+      4px -4px 1px lightgrey,
+      5px -5px 1px lightgrey,
+      6px -6px 1px lightgrey,
+      7px -7px 1px lightgrey,
+      8px -8px 1px lightgrey,
+      9px -9px 1px lightgrey,
+      10px -10px 1px lightgrey;
+  }
+
+.tabla-filtro{
+    padding-top: 30px;
+}
+table {
+    width: 100%;
+    border: 1px solid #000;
+    
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 3px solid rgb(30, 188, 228);
+    border-collapse: collapse;
+    padding: 0.3em;
+ }
+
+ 
+ th{
+    font-size: 10px;
+    background-color: cadetblue;
+ }
+
+
+
+
+
+

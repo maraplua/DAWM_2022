@@ -13,11 +13,15 @@
     <link rel="stylesheet" href="assets/css/templatemo.css">
     <link rel="stylesheet" href="assets/css/custom.css">
     <link rel="stylesheet" href="assets\css\style_shop.css">
+    <link rel="stylesheet" href="assets\css\fontawesome.min.css">
+    <link rel="stylesheet" href="node_modules\charts.css\dist\charts.min.css">
+    <link rel="stylesheet" href="assets\css\dashboard.css">
+
 
     <!-- Load fonts style after rendering the layout styles -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+
     <!--
     
 TemplateMo 559 Zay Shop
@@ -136,22 +140,71 @@ https://templatemo.com/tm-559-zay-shop
         <div class="row">
 
             <div class="col-lg-3">
-                <h1 class="h2 pb-4">Categories</h1>
-                <ul class="list-unstyled templatemo-accordion" id="categorias">
-                    <!-- cargar categorias de productos por medio de una peticion fetch -->         
-                </ul>
+                <div class="col-lg-12 col-sm-12 col-md-12">
+                    <form class="contact_form" action="">
+                        <div class="row">
+                            <!-- Input -->
+                            <div class="col-sm-12 mt-2 mb-6">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <select name="select" id="opciones"
+                                            class="custom-select custom-select-lg form-control " required="">
+                                            <option value="categorias" selected="">Seleccione Categorias</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="tabla-filtro">
+                                    <table >                                  
+                                        <thead>
+                                            <tr>
+                                                <th scope="col"> Producto </th>
+                                                <th scope="col"> Price </th>
+                                                <th scope="col"> Rating </th>                                                
+                                            </tr>
+                                        </thead>
+                                        <tbody id="filtro">
+                                           
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+
             </div>
 
             <div class="col-lg-9">
-                
-                <div class="row" id="productos">
-                    <!-- cargar productos por medio de una peticion fetch -->
+                <div class="row " id="graficas">
+                    <div id="my-chart">
+                        <table class="charts-css bar  show-data-axes data-spacing-5 show-labels" id="chart">
+
+                        </table>
+
+                    </div>
+
+                    <div id="my-chart2">
+                        <table class="charts-css column multiple show-labels show-data-axes">
+                            <thead>
+                                <tr>
+                                    <th scope="col"> Producto </th>
+                                    <th scope="col"> rate </th>
+                                </tr>
+                            </thead>
+                            <tbody id="tchart2">
+
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
+
             </div>
         </div>
         <!-- End Content -->
 
-       
+
 
         <!-- Start Footer -->
         <footer class="bg-dark" id="tempaltemo_footer">
@@ -159,7 +212,7 @@ https://templatemo.com/tm-559-zay-shop
                 <div class="row">
 
                     <div class="col-md-4 pt-5">
-                        <h2 class="h2 text-success border-bottom pb-3 border-light logo">Zay Shop</h2>
+                        <h2 class="h2 text-success border-bottom pb-3 border-light logo">MARP Shop</h2>
                         <ul class="list-unstyled text-light footer-link-list">
                             <li>
                                 <i class="fas fa-map-marker-alt fa-fw"></i>
@@ -260,7 +313,7 @@ https://templatemo.com/tm-559-zay-shop
         <script src="assets/js/bootstrap.bundle.min.js"></script>
         <script src="assets/js/templatemo.js"></script>
         <script src="assets/js/custom.js"></script>
-        <script src="assets\js\js_dashboard.js" type="text/javascript" charset="utf-8" async defer></script>
+        <script src="assets\js\js_dasboard.js" type="text/javascript" charset="utf-8" async defer></script>
         <!-- End Script -->
 </body>
 
