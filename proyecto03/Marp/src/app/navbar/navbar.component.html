@@ -1,0 +1,11 @@
+<mat-drawer-container class="example-container" fullscreen>
+    <mat-drawer #enlaces class="example-sidenav" mode="over">
+      <p> Enlaces </p>
+    </mat-drawer>  
+    <mat-toolbar color="aquamarine">        
+      <span>MARP</span>
+      <button mat-icon-button color="black" aria-label="menu" (click)="menu(enlaces)">  
+        <mat-icon>menu</mat-icon>  
+     </button>
+    </mat-toolbar>      
+  </mat-drawer-container>
