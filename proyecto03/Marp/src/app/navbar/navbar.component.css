@@ -1,4 +1,8 @@
 mat-toolbar {
     justify-content: space-between;
     background-color: aquamarine;
+
+}
+mat-drawer-container {
+    margin-bottom: 30px;
 }
