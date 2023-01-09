@@ -1,11 +1,20 @@
 <mat-drawer-container class="example-container" >
-    <mat-drawer #enlaces class="example-sidenav" mode="over" fullscreen>
-      <p> Enlaces </p>
-    </mat-drawer>  
+    
     <mat-toolbar color="aquamarine">        
       <span>MARP</span>
       <button mat-icon-button color="black" aria-label="menu" (click)="menu(enlaces)">  
         <mat-icon>menu</mat-icon>  
      </button>
+     
     </mat-toolbar>      
+          
 </mat-drawer-container>
+
+<mat-drawer #enlaces class="example-sidenav " mode="over"  >
+  <h1> Menú</h1>
+  <ul>
+    <li> <a [routerLink]="['/shop']"> Shop </a> </li>
+    <li> <a [routerLink]="['/Dashboard']"> Dashboard </a> </li>
+    <li> <a [routerLink]="['/Contact']"> Contact </a> </li>
+  </ul>
+</mat-drawer>

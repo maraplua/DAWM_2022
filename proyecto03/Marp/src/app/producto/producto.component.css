@@ -1,0 +1,21 @@
+.titu {
+    font-weight: bold !important;
+}
+
+th, td {
+    
+    text-align: left;
+    vertical-align: top;
+    padding: 0.3em;
+ }
+
+ .card{
+    width: 100% !important;
+ }
+
+ img{
+    width: 50%;
+   margin-left: 25%;
+   margin-top: 5px;
+       
+}

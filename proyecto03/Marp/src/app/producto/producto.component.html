@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col" *ngFor="let carta of cartas">
+            <div *ngIf="id==carta.id" class="card shadow-sm">
+                <h2> {{carta.title}} </h2>
+                <img src="{{carta.image}}" alt="{{carta.id}}">
+
+                <div class="card-body">
+                    <table>
+                        <tr>
+                            <td class="titu">Precio:</td> <td>${{carta.price}}</td> 
+                        </tr>
+                        <tr>
+                            <td class="titu">Descripción:</td> <td> {{carta.description}}</td>
+                        </tr>
+                        <tr>
+                            <td class="titu">Categoria:</td> <td> {{carta.category}}</td>
+                        </tr>
+                    </table>   
+                    <img src="./assets/estrellas.png">                                                         
+                   
+                    <div class="d-flex justify-content-center align-items-center">
+                        
+                        <small class="text-muted">${{carta.price}}</small>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

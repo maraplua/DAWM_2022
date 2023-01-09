@@ -1,5 +1,25 @@
 .example-card {
-    max-width: 70%;
+    max-width: 80%;
     margin: 5% auto;
-    padding-top: 500px;
+    padding-top: 100px;
 }
+img{
+   width: 50%;
+   margin-left: 25%;
+   margin-top: 5px;
+   
+       
+}
+.container{
+    width: 80%;
+}
+
+small{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+
+
+
+
