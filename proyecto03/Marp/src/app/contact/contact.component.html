@@ -1,1 +1,28 @@
-<p>contact works!</p>
+<div class="titulo" align="center">
+    <h1>Contact</h1>
+</div>
+<div class="formulario">
+
+    <div class="formu">
+        <form id="formulario">
+            <label for="nombrescompletos">Nombres :</label> <br>
+            <input type="text" id="nombres" name="nombrescompletos" required="required" /> <br>
+            <label for="nombrescompletos">Celular :</label><br>
+            <input type="number" id="celular" name="nombrescompletos" required="required" /> <br>
+            <label for="correoelectronico">Email:</label> <br>
+            <input type="email" id="correoelectronico" name="correoelectronico" required="required" /> <br>
+            <label for="mensaje">Asunto:</label> <br>
+            <textarea id="asunto" name="asunto"></textarea>
+            <br>
+            <button type="submit" name="enviar">Enviar</button> <button type="reset" name="reiniciar">Cancelar</button>
+        </form>
+    </div>
+</div>
+<div class="mapaf">
+    <h4>Puedes encontrarnos en: </h4>
+    <div align="center">
+        <google-map width="300px" height="300px" [center]="position" align="center">
+            <map-marker [position]="position" [label]="label"></map-marker>
+        </google-map>
+    </div>
+</div>

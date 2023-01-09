@@ -14,7 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ProductoComponent } from './producto/producto.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ContactComponent } from './contact/contact.component';
-
+import { GoogleMapsModule } from '@angular/google-maps';
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,6 +34,7 @@ import { ContactComponent } from './contact/contact.component';
     MatCardModule,
     MatSidenavModule,
     HttpClientModule,
+    GoogleMapsModule 
     
   ],
   providers: [],

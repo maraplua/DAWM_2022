@@ -1,0 +1,32 @@
+
+.titulo{
+    color: #93F470;
+    justify-content: center;
+    justify-items: center;
+    font-weight:bolder ;
+
+}
+ .formulario{
+    margin-left: 30px;
+ }
+
+ input{
+    width: 60% !important;
+    border-color: #93F470;
+    
+ }
+ textarea{
+    border-color: #93F470;
+ }
+
+ button {
+    border-color: #93F470;
+    background-color: #93F470;
+    border-radius: 10px;
+ }
+
+ .mapaf{
+    margin-left: 30px;
+    margin-top: 30px;
+ }
+

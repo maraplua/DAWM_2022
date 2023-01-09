@@ -11,6 +11,8 @@ th, td {
 
  .card{
     width: 100% !important;
+    justify-content: center !important;
+    justify-items: center !important;
  }
 
  img{

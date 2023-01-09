@@ -18,6 +18,14 @@ small{
     font-size: 30px;
     margin-top: 10px;
 }
+.titulo{
+    color: #93F470 !important;
+    justify-content: center;
+    justify-items: center;
+    font-weight:bolder ;
+
+}
+
 
 
 
