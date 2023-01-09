@@ -5,14 +5,15 @@
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div class="col" *ngFor="let carta of cartas">
             <div class="card shadow-sm">
-                <img src="{{carta.image}}" alt="{{carta.id}}">                
+                <img src="{{carta.image}}" alt="{{carta.id}}" id="imaproducto">                
 
                 <div class="card-body">
                     <a [routerLink]="['/shop', carta.id]"> {{carta.title}} </a>
                     <h4 class="card-text">{{carta.category}}</h4>
                     <h4 class="card-text">{{carta.rate}}</h4>   
-                    <img id= "1" src="./assets/estrellas.png">                                             
-                   
+                    <div class="estrellas" align="center">
+                    <img id= "uno" src="./assets/estrellas.png">                                             
+                    </div>
                     <div class="d-flex justify-content-center align-items-center">
                         <small class="text-muted">${{carta.price}}</small>
                     </div>

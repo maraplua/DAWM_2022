@@ -15,9 +15,12 @@ th, td {
     justify-items: center !important;
  }
 
- img{
+ #imaproducto{
     width: 50%;
    margin-left: 25%;
    margin-top: 5px;
        
+}
+small{
+   font-size: 20px;
 }

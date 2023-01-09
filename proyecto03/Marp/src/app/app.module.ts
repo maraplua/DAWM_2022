@@ -14,7 +14,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { ProductoComponent } from './producto/producto.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ContactComponent } from './contact/contact.component';
+
 import { GoogleMapsModule } from '@angular/google-maps';
+import { GraficoComponent } from './grafico/grafico.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +24,9 @@ import { GoogleMapsModule } from '@angular/google-maps';
     CartaComponent,
     ProductoComponent,
     DashboardComponent,
-    ContactComponent
+    ContactComponent,
+    GraficoComponent
+
   ],
   imports: [
     BrowserModule,
@@ -34,7 +38,7 @@ import { GoogleMapsModule } from '@angular/google-maps';
     MatCardModule,
     MatSidenavModule,
     HttpClientModule,
-    GoogleMapsModule 
+    GoogleMapsModule
     
   ],
   providers: [],
