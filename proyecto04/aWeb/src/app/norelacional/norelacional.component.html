@@ -1,0 +1,40 @@
+<main class="col-md-8 ms-sm-auto col-lg-10 px-md-4">
+   <div class="table-responsive">
+       <div class="table-wrapper">
+           <div class="table-title">
+               <div   class="row">
+                   <div class="col-sm-5">
+                       <h2>Customer- Sales</h2>
+                   </div>
+                  
+               </div>
+           </div>
+           <table class="table table-striped table-hover">
+               <thead>
+                   <tr>
+                       <th>#</th>
+                       <th>productCode</th>
+                       <th>productName</th> 
+                       <th>priceEach</th> 
+                       <th>shippedDate</th> 
+                        <th>status</th> 
+
+                      
+                   </tr>
+               </thead>
+               <tbody *ngFor="let data of ndb">                       
+                     <tr  *ngIf="customerNumber==data.customerNumber">
+                       <td> {{data.customerNumber}}</td>  
+                       <td> {{data.productCode}}</td>
+                       <td> <a [routerLink]="['customers',data.customerNumber, data.productCode]" >{{data.productName}}</a></td> 
+                       <td> ${{data.priceEach}}</td>  
+                       <td> {{data.shippedDate}}</td> 
+                       <td> {{data.status}}</td>                      
+                     </tr>                                        
+                    
+               </tbody>  
+             </table>
+           
+       </div>
+   </div>  
+</main>
